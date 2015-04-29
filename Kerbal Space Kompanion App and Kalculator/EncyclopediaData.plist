@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Entry</key>
+	<array>
+		<string>Moho</string>
+		<string>Eve</string>
+		<string>Kerbin</string>
+		<string>Duna</string>
+		<string>Dres</string>
+		<string>Jool</string>
+		<string>Eeloo</string>
+	</array>
+	<key>Category</key>
+	<array>
+		<string>Planet</string>
+		<string>Planet</string>
+		<string>Planet</string>
+		<string>Planet</string>
+		<string>Planet</string>
+		<string>Planet</string>
+		<string>Planet</string>
+	</array>
+	<key>Image</key>
+	<array>
+		<string>moho.png</string>
+		<string>eve.png</string>
+		<string>kerbin.png</string>
+		<string>duna.png</string>
+		<string>dres.png</string>
+		<string>jool.jpg</string>
+		<string>eeloo.png</string>
+	</array>
+	<key>Axis</key>
+	<array>
+		<string>5,263,138,304 m</string>
+		<string>9,832,684,544 m</string>
+		<string>13,599,840,256 m</string>
+		<string>20,726,155,264 m</string>
+		<string>40,839,348,203 m</string>
+		<string>68,773,560,320 m</string>
+		<string>90,118,820,000 m</string>
+	</array>
+	<key>Radius</key>
+	<array>
+		<string>250,000 m</string>
+		<string>700,000 m</string>
+		<string>600,000 m</string>
+		<string>320,000 m</string>
+		<string>138,000 m</string>
+		<string>6,000,000 m</string>
+		<string>210,000 m</string>
+	</array>
+	<key>Gravity</key>
+	<array>
+		<string>0.275 g</string>
+		<string>1.7 g</string>
+		<string>1 g</string>
+		<string>0.3 g</string>
+		<string>0.115 g</string>
+		<string>0.8 g</string>
+		<string>0.172 g</string>
+	</array>
+	<key>Atmosphere</key>
+	<array>
+		<string>No</string>
+		<string>Yes</string>
+		<string>Yes</string>
+		<string>Yes</string>
+		<string>No</string>
+		<string>Yes</string>
+		<string>No</string>
+	</array>
+	<key>Oxygen</key>
+	<array>
+		<string>No</string>
+		<string>No</string>
+		<string>Yes</string>
+		<string>No</string>
+		<string>No</string>
+		<string>No</string>
+		<string>No</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EAB8B6E1AE8AFAD00866649 /* dres.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB8B671AE8AFAD00866649 /* dres.png */; };
+		4EAB8B6F1AE8AFAD00866649 /* duna.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB8B681AE8AFAD00866649 /* duna.png */; };
+		4EAB8B701AE8AFAD00866649 /* eeloo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB8B691AE8AFAD00866649 /* eeloo.png */; };
+		4EAB8B711AE8AFAD00866649 /* eve.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB8B6A1AE8AFAD00866649 /* eve.png */; };
+		4EAB8B721AE8AFAD00866649 /* jool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB8B6B1AE8AFAD00866649 /* jool.jpg */; };
+		4EAB8B731AE8AFAD00866649 /* kerbin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB8B6C1AE8AFAD00866649 /* kerbin.png */; };
+		4EAB8B741AE8AFAD00866649 /* moho.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EAB8B6D1AE8AFAD00866649 /* moho.png */; };
+		4EEA2DFE1AE76DCE00DD2F91 /* Planets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EEA2DFD1AE76DCE00DD2F91 /* Planets.plist */; };
+		712ACFE31ADCB6DC00E685D1 /* EncyclopediaEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 712ACFE21ADCB6DC00E685D1 /* EncyclopediaEntry.m */; };
+		712ACFE51ADCB73200E685D1 /* EncyclopediaData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 712ACFE41ADCB73200E685D1 /* EncyclopediaData.plist */; };
+		E97131EF1ADC5FF100BBDFC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E97131EE1ADC5FF100BBDFC2 /* main.m */; };
+		E97131F21ADC5FF100BBDFC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E97131F11ADC5FF100BBDFC2 /* AppDelegate.m */; };
+		E97131F51ADC5FF100BBDFC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97131F41ADC5FF100BBDFC2 /* ViewController.m */; };
+		E97131F81ADC5FF100BBDFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97131F61ADC5FF100BBDFC2 /* Main.storyboard */; };
+		E97131FA1ADC5FF100BBDFC2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97131F91ADC5FF100BBDFC2 /* Images.xcassets */; };
+		E97131FD1ADC5FF100BBDFC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E97131FB1ADC5FF100BBDFC2 /* LaunchScreen.xib */; };
+		E97132091ADC5FF100BBDFC2 /* Kerbal_Space_Kompanion_App_and_KalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E97132081ADC5FF100BBDFC2 /* Kerbal_Space_Kompanion_App_and_KalculatorTests.m */; };
+		E97132141ADC71D200BBDFC2 /* Encyclopedia.m in Sources */ = {isa = PBXBuildFile; fileRef = E97132131ADC71D100BBDFC2 /* Encyclopedia.m */; };
+		E99BF6161ADC76D800636675 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E99BF6151ADC76D800636675 /* Calculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E97132031ADC5FF100BBDFC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E97131E11ADC5FF100BBDFC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E97131E81ADC5FF100BBDFC2;
+			remoteInfo = "Kerbal Space Kompanion App and Kalculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EAB8B671AE8AFAD00866649 /* dres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dres.png; sourceTree = "<group>"; };
+		4EAB8B681AE8AFAD00866649 /* duna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duna.png; sourceTree = "<group>"; };
+		4EAB8B691AE8AFAD00866649 /* eeloo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eeloo.png; sourceTree = "<group>"; };
+		4EAB8B6A1AE8AFAD00866649 /* eve.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eve.png; sourceTree = "<group>"; };
+		4EAB8B6B1AE8AFAD00866649 /* jool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jool.jpg; sourceTree = "<group>"; };
+		4EAB8B6C1AE8AFAD00866649 /* kerbin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kerbin.png; sourceTree = "<group>"; };
+		4EAB8B6D1AE8AFAD00866649 /* moho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moho.png; sourceTree = "<group>"; };
+		4EEA2DFD1AE76DCE00DD2F91 /* Planets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Planets.plist; sourceTree = "<group>"; };
+		712ACFE11ADCB6DC00E685D1 /* EncyclopediaEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncyclopediaEntry.h; sourceTree = "<group>"; };
+		712ACFE21ADCB6DC00E685D1 /* EncyclopediaEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncyclopediaEntry.m; sourceTree = "<group>"; };
+		712ACFE41ADCB73200E685D1 /* EncyclopediaData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EncyclopediaData.plist; sourceTree = "<group>"; };
+		E97131E91ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and Kalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kerbal Space Kompanion App and Kalculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97131ED1ADC5FF100BBDFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97131EE1ADC5FF100BBDFC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E97131F01ADC5FF100BBDFC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E97131F11ADC5FF100BBDFC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E97131F31ADC5FF100BBDFC2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E97131F41ADC5FF100BBDFC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E97131F71ADC5FF100BBDFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E97131F91ADC5FF100BBDFC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E97131FC1ADC5FF100BBDFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E97132021ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and KalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kerbal Space Kompanion App and KalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97132071ADC5FF100BBDFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97132081ADC5FF100BBDFC2 /* Kerbal_Space_Kompanion_App_and_KalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kerbal_Space_Kompanion_App_and_KalculatorTests.m; sourceTree = "<group>"; };
+		E97132121ADC71D100BBDFC2 /* Encyclopedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Encyclopedia.h; sourceTree = "<group>"; };
+		E97132131ADC71D100BBDFC2 /* Encyclopedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Encyclopedia.m; sourceTree = "<group>"; };
+		E99BF6141ADC76D800636675 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		E99BF6151ADC76D800636675 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E97131E61ADC5FF100BBDFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97131FF1ADC5FF100BBDFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		712ACFE61ADCC30900E685D1 /* Encyclopedia */ = {
+			isa = PBXGroup;
+			children = (
+				712ACFE11ADCB6DC00E685D1 /* EncyclopediaEntry.h */,
+				712ACFE21ADCB6DC00E685D1 /* EncyclopediaEntry.m */,
+				E97132121ADC71D100BBDFC2 /* Encyclopedia.h */,
+				E97132131ADC71D100BBDFC2 /* Encyclopedia.m */,
+			);
+			name = Encyclopedia;
+			sourceTree = "<group>";
+		};
+		712ACFE71ADCC31700E685D1 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				E99BF6141ADC76D800636675 /* Calculator.h */,
+				E99BF6151ADC76D800636675 /* Calculator.m */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+		E97131E01ADC5FF100BBDFC2 = {
+			isa = PBXGroup;
+			children = (
+				E97131EB1ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and Kalculator */,
+				E97132051ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and KalculatorTests */,
+				E97131EA1ADC5FF100BBDFC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E97131EA1ADC5FF100BBDFC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E97131E91ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and Kalculator.app */,
+				E97132021ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and KalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E97131EB1ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and Kalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E97131F01ADC5FF100BBDFC2 /* AppDelegate.h */,
+				E97131F11ADC5FF100BBDFC2 /* AppDelegate.m */,
+				E97131F31ADC5FF100BBDFC2 /* ViewController.h */,
+				E97131F41ADC5FF100BBDFC2 /* ViewController.m */,
+				E97131F61ADC5FF100BBDFC2 /* Main.storyboard */,
+				712ACFE71ADCC31700E685D1 /* Calculator */,
+				712ACFE61ADCC30900E685D1 /* Encyclopedia */,
+				E97131F91ADC5FF100BBDFC2 /* Images.xcassets */,
+				E97131FB1ADC5FF100BBDFC2 /* LaunchScreen.xib */,
+				E97131EC1ADC5FF100BBDFC2 /* Supporting Files */,
+			);
+			path = "Kerbal Space Kompanion App and Kalculator";
+			sourceTree = "<group>";
+		};
+		E97131EC1ADC5FF100BBDFC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB8B671AE8AFAD00866649 /* dres.png */,
+				4EAB8B681AE8AFAD00866649 /* duna.png */,
+				4EAB8B691AE8AFAD00866649 /* eeloo.png */,
+				4EAB8B6A1AE8AFAD00866649 /* eve.png */,
+				4EAB8B6B1AE8AFAD00866649 /* jool.jpg */,
+				4EAB8B6C1AE8AFAD00866649 /* kerbin.png */,
+				4EAB8B6D1AE8AFAD00866649 /* moho.png */,
+				4EEA2DFD1AE76DCE00DD2F91 /* Planets.plist */,
+				712ACFE41ADCB73200E685D1 /* EncyclopediaData.plist */,
+				E97131ED1ADC5FF100BBDFC2 /* Info.plist */,
+				E97131EE1ADC5FF100BBDFC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E97132051ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and KalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E97132081ADC5FF100BBDFC2 /* Kerbal_Space_Kompanion_App_and_KalculatorTests.m */,
+				E97132061ADC5FF100BBDFC2 /* Supporting Files */,
+			);
+			path = "Kerbal Space Kompanion App and KalculatorTests";
+			sourceTree = "<group>";
+		};
+		E97132061ADC5FF100BBDFC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E97132071ADC5FF100BBDFC2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E97131E81ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and Kalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E971320C1ADC5FF100BBDFC2 /* Build configuration list for PBXNativeTarget "Kerbal Space Kompanion App and Kalculator" */;
+			buildPhases = (
+				E97131E51ADC5FF100BBDFC2 /* Sources */,
+				E97131E61ADC5FF100BBDFC2 /* Frameworks */,
+				E97131E71ADC5FF100BBDFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kerbal Space Kompanion App and Kalculator";
+			productName = "Kerbal Space Kompanion App and Kalculator";
+			productReference = E97131E91ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and Kalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E97132011ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and KalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E971320F1ADC5FF100BBDFC2 /* Build configuration list for PBXNativeTarget "Kerbal Space Kompanion App and KalculatorTests" */;
+			buildPhases = (
+				E97131FE1ADC5FF100BBDFC2 /* Sources */,
+				E97131FF1ADC5FF100BBDFC2 /* Frameworks */,
+				E97132001ADC5FF100BBDFC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E97132041ADC5FF100BBDFC2 /* PBXTargetDependency */,
+			);
+			name = "Kerbal Space Kompanion App and KalculatorTests";
+			productName = "Kerbal Space Kompanion App and KalculatorTests";
+			productReference = E97132021ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and KalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E97131E11ADC5FF100BBDFC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "T.J. Agne and Matthew Farr";
+				TargetAttributes = {
+					E97131E81ADC5FF100BBDFC2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E97132011ADC5FF100BBDFC2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E97131E81ADC5FF100BBDFC2;
+					};
+				};
+			};
+			buildConfigurationList = E97131E41ADC5FF100BBDFC2 /* Build configuration list for PBXProject "Kerbal Space Kompanion App and Kalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E97131E01ADC5FF100BBDFC2;
+			productRefGroup = E97131EA1ADC5FF100BBDFC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E97131E81ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and Kalculator */,
+				E97132011ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and KalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E97131E71ADC5FF100BBDFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAB8B701AE8AFAD00866649 /* eeloo.png in Resources */,
+				4EAB8B721AE8AFAD00866649 /* jool.jpg in Resources */,
+				4EAB8B741AE8AFAD00866649 /* moho.png in Resources */,
+				E97131F81ADC5FF100BBDFC2 /* Main.storyboard in Resources */,
+				4EEA2DFE1AE76DCE00DD2F91 /* Planets.plist in Resources */,
+				E97131FD1ADC5FF100BBDFC2 /* LaunchScreen.xib in Resources */,
+				712ACFE51ADCB73200E685D1 /* EncyclopediaData.plist in Resources */,
+				4EAB8B731AE8AFAD00866649 /* kerbin.png in Resources */,
+				E97131FA1ADC5FF100BBDFC2 /* Images.xcassets in Resources */,
+				4EAB8B711AE8AFAD00866649 /* eve.png in Resources */,
+				4EAB8B6E1AE8AFAD00866649 /* dres.png in Resources */,
+				4EAB8B6F1AE8AFAD00866649 /* duna.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97132001ADC5FF100BBDFC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E97131E51ADC5FF100BBDFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97131F51ADC5FF100BBDFC2 /* ViewController.m in Sources */,
+				E97132141ADC71D200BBDFC2 /* Encyclopedia.m in Sources */,
+				712ACFE31ADCB6DC00E685D1 /* EncyclopediaEntry.m in Sources */,
+				E97131F21ADC5FF100BBDFC2 /* AppDelegate.m in Sources */,
+				E97131EF1ADC5FF100BBDFC2 /* main.m in Sources */,
+				E99BF6161ADC76D800636675 /* Calculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97131FE1ADC5FF100BBDFC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97132091ADC5FF100BBDFC2 /* Kerbal_Space_Kompanion_App_and_KalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E97132041ADC5FF100BBDFC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E97131E81ADC5FF100BBDFC2 /* Kerbal Space Kompanion App and Kalculator */;
+			targetProxy = E97132031ADC5FF100BBDFC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E97131F61ADC5FF100BBDFC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97131F71ADC5FF100BBDFC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E97131FB1ADC5FF100BBDFC2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E97131FC1ADC5FF100BBDFC2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E971320A1ADC5FF100BBDFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E971320B1ADC5FF100BBDFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E971320D1ADC5FF100BBDFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kerbal Space Kompanion App and Kalculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E971320E1ADC5FF100BBDFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kerbal Space Kompanion App and Kalculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E97132101ADC5FF100BBDFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kerbal Space Kompanion App and KalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kerbal Space Kompanion App and Kalculator.app/Kerbal Space Kompanion App and Kalculator";
+			};
+			name = Debug;
+		};
+		E97132111ADC5FF100BBDFC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kerbal Space Kompanion App and KalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kerbal Space Kompanion App and Kalculator.app/Kerbal Space Kompanion App and Kalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E97131E41ADC5FF100BBDFC2 /* Build configuration list for PBXProject "Kerbal Space Kompanion App and Kalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E971320A1ADC5FF100BBDFC2 /* Debug */,
+				E971320B1ADC5FF100BBDFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E971320C1ADC5FF100BBDFC2 /* Build configuration list for PBXNativeTarget "Kerbal Space Kompanion App and Kalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E971320D1ADC5FF100BBDFC2 /* Debug */,
+				E971320E1ADC5FF100BBDFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E971320F1ADC5FF100BBDFC2 /* Build configuration list for PBXNativeTarget "Kerbal Space Kompanion App and KalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E97132101ADC5FF100BBDFC2 /* Debug */,
+				E97132111ADC5FF100BBDFC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E97131E11ADC5FF100BBDFC2 /* Project object */;
+}

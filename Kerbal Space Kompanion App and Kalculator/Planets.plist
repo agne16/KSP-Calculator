@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>spheresOfInfluence</key>
+	<array>
+		<integer>9646663</integer>
+		<integer>85109365</integer>
+		<integer>84159286</integer>
+		<integer>47921949</integer>
+		<integer>32832840</integer>
+		<integer>2455985200</integer>
+		<integer>119082940</integer>
+	</array>
+	<key>planetRadii</key>
+	<array>
+		<integer>250000</integer>
+		<integer>700000</integer>
+		<integer>600000</integer>
+		<integer>320000</integer>
+		<integer>138000</integer>
+		<integer>6000000</integer>
+		<integer>210000</integer>
+	</array>
+	<key>gravitationalParameters</key>
+	<array>
+		<integer>168609380000</integer>
+		<integer>8171730200000</integer>
+		<integer>3531600000000</integer>
+		<integer>301363210000</integer>
+		<integer>21484489000</integer>
+		<integer>282528000000000</integer>
+		<integer>74410815000</integer>
+		<integer>1172332800000000000</integer>
+	</array>
+	<key>semiMajorAxes</key>
+	<array>
+		<integer>5263138304</integer>
+		<integer>9832684544</integer>
+		<integer>13599840256</integer>
+		<integer>20726155264</integer>
+		<integer>40839348203</integer>
+		<integer>68773560320</integer>
+		<integer>90118820000</integer>
+	</array>
+	<key>planetNames</key>
+	<array>
+		<string>Moho</string>
+		<string>Eve</string>
+		<string>Kerbin</string>
+		<string>Duna</string>
+		<string>Dres</string>
+		<string>Jool</string>
+		<string>Eeloo</string>
+	</array>
+</dict>
+</plist>
